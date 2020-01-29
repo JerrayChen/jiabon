@@ -1,0 +1,68 @@
+.om-wrapper{
+    width: 300px;
+    margin: auto;
+    border: 1px solid black;
+    text-align: left;
+}
+
+.om-store-name{
+    text-align: left;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.om-label{
+    text-align: left;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.om-pick-time{
+    text-align: left;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.om-table{
+
+    border-collapse: collapse;
+    margin-left: 10px;
+    font-size: 22px;
+    width: 280px;
+    margin-top: 15px;
+}
+
+.om-table, .om-table th, .om-table td{
+    border: black 1px solid;
+}
+
+.om-cell{
+    margin: 10px;
+}
+
+.om-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.om-little-btn{
+    margin-left: 10px;
+    width: 125px;
+    height: 35px;
+    font-size: 22px;
+}
+
+.om-dummy{
+    margin-left: 10px;
+    width: 125px;
+    height: 35px;
+}
+
+.om-price{
+    font-size: 22px;
+    margin-right: 10px;
+}

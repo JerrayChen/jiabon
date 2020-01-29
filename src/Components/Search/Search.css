@@ -1,0 +1,24 @@
+.label{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.search-input{
+    background-color: #fcbf49;
+    font-size: 20px;
+}
+
+.input-group{
+    width: 250px;
+    margin: auto;
+}
+
+.search-btn{
+    margin-bottom: 10px;
+}
+
+.store-list{
+    margin-top: 10px;
+}

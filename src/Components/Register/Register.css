@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.reg-title-wrapper{
+    width: 250px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.reg-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.register-form{
+
+    width: 250px;
+    margin: auto;
+    text-align: left;
+    margin-top: 50px;
+    
+}
+
+.reg-err-msg{
+    height: 30px;
+    color: #d62828;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}

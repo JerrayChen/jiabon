@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Rouge+Script&display=swap');
+.change-title-wrapper{
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.change-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.change-form{
+    margin: auto;
+    margin-top: 40px;
+    width: 300px;
+    text-align: left;
+}
+
+.change-title-label{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.right-input, .wrong-input{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: #fcbf49;
+    width: 260px;
+}
+
+.err-msg{
+    height: 30px;
+    color: #d62828;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}

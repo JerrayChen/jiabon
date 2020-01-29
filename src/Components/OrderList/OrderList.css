@@ -1,0 +1,18 @@
+.ol-wrapper{
+    width: 300px;
+    margin: auto;
+}
+
+.ol-title{
+    font-size: 22px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ol-empty{
+    font-size: 22px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

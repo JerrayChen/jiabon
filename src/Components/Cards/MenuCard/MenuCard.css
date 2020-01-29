@@ -1,0 +1,53 @@
+.menu-card-wrapper{
+    width: 300px;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.mc-pick-up{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.mc-reserve{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+.mc-dish-wrapper{
+    width: 275px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mc-dish-name{
+    font-size: 22px;
+    text-align: left;
+}
+
+.mc-dish-remain{
+    font-size: 18px;
+    text-align: left;
+}
+
+.mc-dish-price{
+    font-size: 20px;
+    text-align: left;
+}
+
+.little-btn{
+    width: 150px;
+    height: 35px;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

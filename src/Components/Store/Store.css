@@ -1,0 +1,13 @@
+.store-pic{
+    width: 100vw;
+    height: 250px;
+}
+
+.s-store-name{
+    width: 275px;
+    margin: auto;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}

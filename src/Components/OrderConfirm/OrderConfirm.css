@@ -1,0 +1,49 @@
+.oc-wrapper{
+    width: 300px;
+    margin: auto;
+    text-align: left;
+}
+.oc-store-name{
+    text-align: left;
+    font-size: 26px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.oc-pick-label{
+    text-align: left;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.oc-pick-time{
+    text-align: left;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.oc-dish-table{
+    border-collapse: collapse;
+    margin-left: 10px;
+    font-size: 22px;
+    width: 280px;
+    margin-top: 20px;
+}
+
+.oc-dish-table, .oc-dish-table th, .oc-dish-table td{
+    border: black 1px solid;
+}
+
+.om-cell{
+    margin: 10px;
+}
+
+
+
+.oc-price{
+    margin-top: 20px;
+    font-size: 22px;
+    margin-right: 10px;
+    text-align: right;
+}
