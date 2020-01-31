@@ -11,3 +11,44 @@
     margin-bottom: 20px;
     text-align: left;
 }
+
+@media (min-width: 1001px){
+    .menu-card-list-wrapper{
+        width: 950px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .store-pic{
+        width: 98.5vw;
+        height: 450px;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 751px){
+    .menu-card-list-wrapper{
+        width: 630px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        flex-wrap: wrap;
+        /* align-items: flex-start; */
+    }
+    .store-pic{
+        width: 100vw;
+        height: 450px;
+    }
+}
+
+@media (max-width: 700px){
+    .menu-card-list-wrapper{
+        width: 303px;
+        display: flex;
+        justify-content: flex-start;
+        margin: auto;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+}

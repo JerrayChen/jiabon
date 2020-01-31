@@ -31,7 +31,9 @@ class Store extends Component {
             <div>
                 <img className='store-pic' src='https://chinesenewyear.imgix.net/assets/images/food/chinese-new-year-food-feast.jpg?q=50&w=2560&h=1440&fit=crop&auto=format' alt='store_pic' />
                 <div className='s-store-name'>{this.state.store_name}</div>
-                {menuCards}
+                <div className='menu-card-list-wrapper'>
+                    {menuCards}
+                </div>
             </div>
         )
     }

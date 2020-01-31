@@ -37,7 +37,15 @@ class Header extends Component {
                     <nav className='nav'>
                         <button className='menu-btn' onClick={() => { this.handleMenu() }}>☰</button>
                         <span className='welcome'>Welcome {this.props.username}!</span>
-                        <span className='dummy'></span>
+                        <div className='dummy'>
+                            <ul className='menu-desk-list'>
+                                <li className='menu-list-desk'><Link to='/dashboard' >Home</Link></li>
+                                <li className='menu-list-desk'><Link to='/dashboard/orderlist' >Your Order</Link></li>
+                                <li className='menu-list-desk'><Link to='/dashboard/changepw'>Change password</Link></li>
+                                <li className='menu-list-desk'><Link to='/dashboard/about'>About Jiabon</Link></li>
+                                <li className='menu-list-desk' onClick={this.props.logout}>Logout</li>
+                            </ul>
+                        </div>
                     </nav>
                 </div>
             </header>

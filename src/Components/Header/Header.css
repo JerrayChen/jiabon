@@ -10,10 +10,7 @@
     justify-content: space-between;
 }
 
-.dummy{
-    height: 50px;
-    width: 50px;
-}
+
 
 .menu-btn{
     position: static;
@@ -76,6 +73,13 @@
     }
 }
 
+.menu-desk-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
 .welcome{
     position: static;
     margin-top: 15px;
@@ -88,20 +92,42 @@
     .menu-status, .menu-status-open, .menu-status-close{
         display: none;
     }
+    .menu-btn{
+        display: none;
+    }
+    .nav{
+        justify-content: space-around;
+    }
+    .dummy{
+        width: 500px;
+    }
 }
 
 @media (max-width: 1000px){
 
+
     .menu-btn{
         display: block;
     }
-    .desk-list{
+    .menu-desk-list{
         display: none;
+    }
+    .dummy{
+        height: 50px;
+        width: 50px;
     }
 }
 
 @media (max-width: 700px){
-
-
+    .menu-btn{
+        display: block;
+    }
+    .menu-desk-list{
+        display: none;
+    }
+    .dummy{
+        height: 50px;
+        width: 50px;
+    }
 
 }

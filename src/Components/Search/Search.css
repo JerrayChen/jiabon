@@ -1,4 +1,4 @@
-.label{
+.label, .label-near{
     margin-top: 30px;
     font-size: 20px;
     text-align: left;
@@ -10,10 +10,7 @@
     font-size: 20px;
 }
 
-.input-group{
-    width: 250px;
-    margin: auto;
-}
+
 
 .search-btn{
     margin-bottom: 10px;
@@ -21,4 +18,73 @@
 
 .store-list{
     margin-top: 10px;
+}
+
+/* different screen size */
+
+@media (min-width: 1001px){
+    .input-wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+    .input-group{
+        width: 215px;
+        text-align: left;
+    }
+    .label{
+        margin-left: 0px;
+    }
+    .input-group-near{
+        width: 750px;
+        margin: auto;
+        /* width: 215px; */
+        text-align: left;
+    }
+    .store-list{
+        width: 750px;
+        display: flex;
+        justify-content: flex-start;
+        margin: auto;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        /* border: 1px solid black; */
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 751px){
+    .input-wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+    .input-group{
+        width: 215px;
+        text-align: left;
+    }
+    .label{
+        margin-left: 0px;
+    }
+    /* .input-group-near{
+        width: 250px;
+        margin: auto;
+        width: 215px;
+        text-align: left;
+    } */
+    /* .label-near{
+        margin-left: 0px;
+    } */
+    .store-list{
+        width: 550px;
+        display: flex;
+        /* justify-content: space-around; */
+        margin: auto;
+        flex-wrap: wrap;
+        /* border: 1px solid black; */
+    }
+}
+
+@media (max-width: 700px){
+    .input-group, .input-group-near{
+        width: 250px;
+        margin: auto;
+    }
 }

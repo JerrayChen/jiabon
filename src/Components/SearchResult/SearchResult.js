@@ -26,7 +26,7 @@ class SearchResult extends Component{
                     <GoogleMap stores={this.props.stores} />
                 </div>
                 <div className='search-result-label'>Search Result:</div>
-                <div>
+                <div className='store-list'>
                     {storeList}  
                 </div>
             </div>

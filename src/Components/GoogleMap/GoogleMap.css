@@ -2,3 +2,9 @@
     height: 325px;
     width: 100vw;
 }
+
+@media (min-width: 1001px){
+    #map{
+        width: 98.5vw;
+    }
+}

@@ -33,7 +33,9 @@ class OrderList extends Component{
         return (
             <div className='ol-wrapper'>
                 <div className='ol-title'>Your Orders:</div>
-                {this.state.orders.length===0?empty:order}
+                <div className='ol-list-wrapper'>
+                    {this.state.orders.length===0?empty:order}
+                </div>
             </div>
         )
     }

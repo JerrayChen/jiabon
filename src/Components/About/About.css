@@ -8,3 +8,20 @@
     font-size: 20px;
     text-align: left;
 }
+
+@media (min-width: 1001px){
+    .about-wrapper{
+        width: 880px;
+
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 751px){
+    .about-wrapper{
+        width: 580px;
+    }
+}
+
+@media (max-width: 700px){
+
+}

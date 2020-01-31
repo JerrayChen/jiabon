@@ -5,7 +5,7 @@ a{
 
 .store-card-wrapper{
     width: 250px;
-    margin: auto;
+    /* margin: auto; */
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -34,4 +34,21 @@ a{
 .r-time{
     font-size: 14px;
     text-align: left;
+}
+
+@media (min-width: 1001px){
+    
+}
+
+@media (max-width: 1000px) and (min-width: 751px){
+    
+}
+
+@media (max-width: 700px){
+    .store-card-wrapper{
+        width: 250px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
