@@ -21,7 +21,8 @@ app.use(session({
     cookie: {
         maxAge: 1000 * 60 * 60 * 24 * 7
     }
-}))
+}));
+app.use(express.static(`${__dirname}/../build`));
 
 // database
 massive(DB_STRING).then(db => {
@@ -35,7 +36,7 @@ app.post('/auth/register', register);
 app.post('/auth/login', login);
 app.post('/auth/logout', verifyCustomer, logout);
 app.get('/auth/customer', verifyCustomer, getCustomer);
-app.post('/auth/changepassword', verifyCustomer, changePassword);
+app.put('/auth/changepassword', verifyCustomer, changePassword);
 
 // customers
 app.get('/api/customer/store', getStore);

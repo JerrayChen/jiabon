@@ -49,7 +49,7 @@ class ChangePW extends Component {
             oldPassword: oldpw,
             newPassword: newpw
         }
-        axios.post('/auth/changepassword', customer).then(() => {
+        axios.put('/auth/changepassword', customer).then(() => {
             alert('Password changed successfully!');
             this.props.history.push('/dashboard');
         }).catch(() => {
