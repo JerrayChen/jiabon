@@ -5,13 +5,6 @@ import StoreCard from '../Cards/StoreCard/StoreCard';
 import './SearchResult.css';
 
 class SearchResult extends Component{
-    constructor(){
-        super();
-    }
-
-    componentDidMount(){
-
-    }
 
     render(){
         let storeList = this.props.stores.map((e,i)=>{return(

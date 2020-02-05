@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './StoreCard.css';
 class StoreCard extends Component {
-    constructor() {
-        super();
-    }
+
     render() {
         return (
             <div className='store-card-wrapper'>

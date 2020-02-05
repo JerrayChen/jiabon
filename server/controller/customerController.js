@@ -1,6 +1,6 @@
 const axios = require('axios');
 require('dotenv').config();
-const { STRIPE_PUBLIC_KEY, STRIPE_PRIVATE_KEY } = process.env
+const { STRIPE_PUBLIC_KEY, STRIPE_PRIVATE_KEY, GOOGLE_API_KEY_SERVER } = process.env
 const stripe = require('stripe')(STRIPE_PRIVATE_KEY)
 
 module.exports = {
@@ -26,9 +26,9 @@ async function getStore(req, res) {
 
     if (zipcode) {
 
-        let location = await axios.get("https://maps.googleapis.com/maps/api/geocode/json?address=" + zipcode + '&key=AIzaSyAyiDxdCYa5RWMlvtrag2hlZ9YeH8xh7LY')
+        let location = await axios.get("https://maps.googleapis.com/maps/api/geocode/json?address=" + zipcode + '&key=' + GOOGLE_API_KEY_SERVER)
             .then(response => {
-                // console.log(response.data.results[0].geometry.location);
+                // console.log(response.data);
                 const latitude = response.data.results[0].geometry.location.lat;
                 const longitude = response.data.results[0].geometry.location.lng;
                 // console.log({ latitude, longitude })
