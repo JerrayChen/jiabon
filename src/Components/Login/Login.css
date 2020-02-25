@@ -48,6 +48,7 @@ h1{
     font-size: 20px;
     margin-bottom: 20px;
     background-color: #fcbf49;
+    width: 200px;
 }
 
 .err-msg{
